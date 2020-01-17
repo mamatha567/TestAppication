@@ -5,13 +5,15 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-//mamatha
+/*harsha*/
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button button;
     private TextView textView;
+    ImageView imageView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
