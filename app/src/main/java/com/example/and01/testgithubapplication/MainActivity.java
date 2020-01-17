@@ -11,12 +11,15 @@ import android.widget.Toast;
 //mamatha
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button button;
+    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.btn_onClick);
+        textView = findViewById(R.id.text);
         button.setOnClickListener(this);
+        textView.setOnClickListener(this);
         Toast.makeText(MainActivity.this,"new branch Test Toast",Toast.LENGTH_SHORT).show();
     }
     @Override
