@@ -27,12 +27,11 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.textview:
                 Toast.makeText(this, "TestActivity", Toast.LENGTH_SHORT).show();
 
-                Toast.makeText(this, "TestActivity", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_text:
 
 
-                Toast.makeText(this, "TestActivity", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "button onclick", Toast.LENGTH_SHORT).show();
                 break;
 
         }
