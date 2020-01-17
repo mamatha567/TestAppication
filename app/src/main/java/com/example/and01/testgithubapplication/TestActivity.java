@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-//mamatha
+
 public class TestActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView textView;
@@ -30,7 +30,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_text:
 
-                Toast.makeText(this, "button msg", Toast.LENGTH_SHORT).show();
+
                 Toast.makeText(this, "button onclick", Toast.LENGTH_SHORT).show();
                 break;
 
