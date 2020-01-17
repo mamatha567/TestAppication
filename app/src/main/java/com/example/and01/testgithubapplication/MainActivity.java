@@ -8,17 +8,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView textView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 
-        Log.i("test log","hii");
-
-        Toast.makeText(MainActivity.this,"Test Toast",Toast.LENGTH_SHORT).show();
-        Log.i("test log","hii");
         Toast.makeText(MainActivity.this,"new branch Test Toast",Toast.LENGTH_SHORT).show();
         Log.i("test log","hii");
 
