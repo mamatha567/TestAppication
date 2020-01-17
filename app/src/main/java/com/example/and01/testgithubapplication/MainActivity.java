@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
+/*harsha*/
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button button;
     @Override
@@ -23,8 +23,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.btn_onClick:
                 Toast.makeText(this, " you clicked button", Toast.LENGTH_SHORT).show();
+                break;
             case R.id.text :
                 Toast.makeText(this, "textview Toast ", Toast.LENGTH_SHORT).show();
+                break;
 
         }
         Toast.makeText(this, "mamatha", Toast.LENGTH_SHORT).show();
