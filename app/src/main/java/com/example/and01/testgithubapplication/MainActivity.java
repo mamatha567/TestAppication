@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.btn_onClick);
         textView = findViewById(R.id.text);
+        imageView     = findViewById(R.id.imageView);
         button.setOnClickListener(this);
         textView.setOnClickListener(this);
         Toast.makeText(MainActivity.this,"new branch Test Toast",Toast.LENGTH_SHORT).show();
