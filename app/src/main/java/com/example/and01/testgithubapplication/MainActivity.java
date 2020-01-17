@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this,"Test Toast",Toast.LENGTH_SHORT).show();
         Log.i("test log","hii");
+        Toast.makeText(MainActivity.this,"new branch Test Toast",Toast.LENGTH_SHORT).show();
         
     }
 }
