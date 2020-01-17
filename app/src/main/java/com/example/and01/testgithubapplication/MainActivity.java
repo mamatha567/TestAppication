@@ -9,8 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-
     private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +16,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.btn_onClick);
         button.setOnClickListener(this);
-
-
         Toast.makeText(MainActivity.this,"new branch Test Toast",Toast.LENGTH_SHORT).show();
-        
     }
-
     @Override
     public void onClick(View v) {
         Toast.makeText(this, "mamatha", Toast.LENGTH_SHORT).show();
