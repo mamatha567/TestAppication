@@ -2,6 +2,7 @@ package com.example.and01.testgithubapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -29,8 +30,7 @@ public class TestActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
             case R.id.btn_text:
-
-
+                Log.i("log from h","hiiii");
                 Toast.makeText(this, "btn click imple frm harsha", Toast.LENGTH_SHORT).show();
                 break;
 
